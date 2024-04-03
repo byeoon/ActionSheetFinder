@@ -1,6 +1,6 @@
 {
    "name": "actionsheetfinder",
-   "description": "Finds ActionSheets.",
+   "description": "Logs all clicked ActionSheets to debug logs.",
    "version": "1.0.0",
    "license": "GPL-3.0",
    "author": "byeoon",

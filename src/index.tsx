@@ -11,8 +11,9 @@ const ActionSheetFinder: Plugin = {
    ...manifest,
 
    onStart() {
+      console.log("[ActionSheetFinder] Hello world!")
       const unpatchOpenLazy = Patcher.before(LazyActionSheet, 'openLazy', (_, [component, key]) => {
-         return console.log("[ActionSheetFinder] Found actionsheet: " + key);
+         return console.log("[ActionSheetFinder] Found ActionSheet: " + key);
          unpatchOpenLazy();
       });
    },

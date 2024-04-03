@@ -1,7 +1,7 @@
 {
    "name": "ActionSheetFinder",
    "version": "1.0.0",
-   "description": "Lists all actionsheets.",
+   "description": "Lists all ActionSheets to debug logs.",
    "authors": [
       {
          "name": "byeoon",
